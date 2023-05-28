@@ -94,7 +94,7 @@ def register(request):
         form = RegistrationForm()
 
     context = {'form': form, 'title': title}
-    return render(request, 'quiz/registration.html', context=context)
+    return render(request, 'quiz/registration.html')
 
 
 def logout_view(request):
